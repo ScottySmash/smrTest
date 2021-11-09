@@ -1,0 +1,8 @@
+>>> for mac in macs:
+		for cs in cs102s:
+			if mac in cs:
+				print(mac, " -> ", cs)
+				
+cs102s = getLairdDongleData(b"SCAN TYPE=CS102")
+
+test = getLairdDongleData(b"SCAN MAC=C76B32C0B99F")
